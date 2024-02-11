@@ -1121,6 +1121,14 @@ function writeScoreboard() {
         fs.utimesSync(`${playerPath}/characterP2.png`, new Date(), new Date());
     });
 
+    fs.copyFile(`${charPath}/VS Screen/${charP1}/Default Left.png`, `${playerPath}/VScharacterP1.png`, () => {
+        fs.utimesSync(`${playerPath}/VScharacterP1.png`, new Date(), new Date());
+    });
+
+    fs.copyFile(`${charPath}/VS Screen/${charP2}/Default Left.png`, `${playerPath}/VScharacterP2.png`, () => {
+        fs.utimesSync(`${playerPath}/VScharacterP2.png`, new Date(), new Date());
+    });
+
     fs.copyFile(`${playerPath}/port${portP1}.png`, `${playerPath}/portP1.png`, () => {
         fs.utimesSync(`${playerPath}/portP1.png`, new Date(), new Date());
     });
