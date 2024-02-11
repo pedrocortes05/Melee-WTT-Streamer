@@ -1,6 +1,6 @@
 {
-    "appId": "com.sheepolution.melee-ghost-streamer",
-    "productName": "Melee Ghost Streamer",
+    "appId": "com.sheepolution.melee-wtt-streamer",
+    "productName": "Melee WTT Streamer",
     "directories": {
         "output": "dist"
     },
