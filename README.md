@@ -1,8 +1,8 @@
 ![preview](doc/full_window.png)
 
-# Melee Ghost Streamer
+# Melee WTT Streamer
 
-A fork of [Readek's Melee Stream Tool](https://github.com/Readek/Melee-Stream-Tool) with lots of features added, mainly automation.
+A fork of [Sheepolution's Melee Ghost Streamer Tool](https://github.com/Sheepolution/Melee-Ghost-Streamer) with lots of features added, mainly automation.
 
 ## Added features
 * Automatically sets the characters, skin and ports based on the Slippi file.
@@ -19,9 +19,9 @@ A fork of [Readek's Melee Stream Tool](https://github.com/Readek/Melee-Stream-To
 
 ## Install
 
-1. Download the latest [release](https://github.com/Sheepolution/Melee-Ghost-Streamer/releases).
+1. Download the latest [release](https://github.com/pedrocortes05/Melee-WTT-Streamer/releases).
 2. Unzip the files.
-3. Start `Melee Ghost Streamer.exe`.
+3. Start `Melee WTT Streamer.exe`.
 
 ⚠️ Note: For the video features (VODs, replays, shorts) you will need [FFmpeg](https://ffmpeg.org/) installed and have it in your [environment path](https://superuser.com/questions/284342/what-are-path-and-other-environment-variables-and-how-can-i-set-or-use-them).
 
@@ -161,7 +161,7 @@ These are instructions for regular OBS Studio, but I imagine you can do the same
 - If the source looks weird, manually set the source's properties to 1920 width and 1080 height, or set your OBS canvas resolution to 1080p, or make the source fit the screen.
 - In the source's properties, change *Use custom frame rate* -> `60` (if streaming at 60fps of course).
 - **Also tick** `Refresh browser when scene becomes active`.
-- Manage it all with the `Melee Ghost Streamer` executable.
+- Manage it all with the `Melee WTT Streamer` executable.
 
 2 basic transitions are included in the `Resources/OBS Transitions` folder, if you don't have a transition yourself of course. To use them on OBS:
 - Add a new stinger transition.
